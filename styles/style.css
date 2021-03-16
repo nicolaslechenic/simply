@@ -54,7 +54,9 @@ a {
 }
 
 /*-------HOMEPAGE-------*/
-header div:first-child {
+
+/*--------HEADER--------*/
+#top-nav {
     background-color: var(--home-grey);
 }
 
@@ -62,3 +64,37 @@ header div:first-child {
 #top-nav span {
     padding: 0 5px;
 }
+
+#myModal i {
+    font-size: 2rem;
+    color: var(--dark-grey);
+    cursor: pointer;
+}
+
+#myModal i:hover {
+    color: var(--fushia-light);
+}
+
+#top-nav form button {
+    margin-left: 35%;
+}
+
+#top-nav .container ul a {
+    color: var(--black);
+}
+
+#header-main-nav {
+    height: 300px;
+    background-image: url(../images/actuel_2_chambres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#header-main-nav .container .navbar {
+    background-color: rgba(106, 34, 90, 0.5);
+}
+
+#header-main-nav
