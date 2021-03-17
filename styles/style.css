@@ -40,7 +40,7 @@
 }
 
 .bold {
-    font-family: 'caviar_reamsbold', Arial;
+    font-family: 'caviar_dreamsbold', Arial;
 }
 
 a {
@@ -189,7 +189,7 @@ main {
 }
 
 #nos-maisons h4,
-p {
+#nos-maisons p {
     font: 1.4rem 'caviar_dreamsbold', 'arial';
 }
 
@@ -233,9 +233,68 @@ p {
     color: white;
 }
 
+/*---------FOOTER--------*/
+footer {
+    position: relative;
+}
 
+footer>img {
+    width: 100%;
+}
 
+#footer-main {
+    position: absolute;
+    top: 6rem;
+    width: 90%;
+    background-color: white;
+}
 
+#footer-main i {
+    color: var(--home-grey);
+    font-size: 2rem;
+}
+
+#adresse p:first-of-type {
+    font-size: 2rem;
+}
+
+#adresse p,
+#adresse a {
+    font-size: 1.2rem;
+}
+
+#adresse a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+#footer-black {
+    width: 40%;
+    background-color: var(--black);
+    padding: 70px 0;
+    position: absolute;
+    top: -50px;
+    left: 30%;
+}
+
+#footer-black img {
+    margin-right: 1rem;
+}
+
+#footer-black>div {
+    color: white;
+}
+
+#footer-black>div p:first-child {
+    font-size: 3rem;
+}
+
+#footer-black>div p:last-child {
+    font-size: 1.5rem;
+    line-height: 0.5;
+}
 
 @media (max-width: 768px) {
     /*---header---*/

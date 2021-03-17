@@ -1,1 +1,1 @@
-Redirect index.php http://localhost/Sout2/pages/accueil.php
+DirectoryIndex pages/accueil.php

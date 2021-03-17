@@ -147,7 +147,7 @@ $current=basename($path);
     </div>
     <div id="contact-us" class="d-flex flex-column align-items-end">
       <button type="button" class="btn mb-1 d-flex align-items-center" id="phone">
-        <i class="fas fa-phone-alt"></i><a id="num" href="tel:00000000000" class="ml-3">02 57 87 71 85</a>
+        <i class="fas fa-phone-alt"></i><a href="tel:00000000000" class="ml-3">02 57 87 71 85</a>
       </button>
       <button type="button" class="btn"><i class="fas fa-envelope" data-toggle="modal"
           data-target="#modal-contact"></i></button>
@@ -164,7 +164,7 @@ $current=basename($path);
         <img src="../images/construction_maison_individuelle.jpg" alt="" class="col-3 img-fluid d-none d-md-block">
       </div>
     </section>
-    <section id="nos-maisons" class="container text-center">
+    <section id="nos-maisons" class="container">
       <h2>Nos maisons</h2>
       <div class="d-flex justify-content-between flex-wrap">
         <div class="card ">
@@ -225,10 +225,41 @@ $current=basename($path);
           </a>
         </div>
       </div>
-      <button type="button" class="btn btn-outline-dark pr-4 pl-4 bold">En voir +</button>
+      <div class="d-flex justify-content-around">
+        <button type="button" class="btn btn-outline-dark pr-4 pl-4 bold">En voir +</button>
+      </div>
     </section>
   </main>
-  <footer>
+  <footer class="mt-3 d-flex justify-content-around">
+    <img src="../images/img-bg-footer.jpg" alt="large image">
+    <div class="container d-flex justify-content-between p-5" id="footer-main">
+      <div id="adresse">
+        <i class="fas fa-map-marker-alt"></i>
+        <p class="bold mt-2 mb-0">Simply Home</p>
+        <p class="bold mt-0 mb-0">15 rue des Oliviers</p>
+        <p class="bold">16100 ANGOULEME</p>
+        <p>
+        <a href="tel:00000000000" class="bold">02 57 87 71 85</a>
+      </p>
+      </div>
+      <div id="footer-black" class="d-flex justify-content-center align-items-center">
+        <img src="../images/simply-home-logo.png" alt="logo">
+        <div class="text-left">
+          <p class="bold mb-0">Simply Home</p>
+          <p class="bold">Constructeur de vie</p>
+        </div>
+      </div>
+      <div id="adresse">
+        <i class="fas fa-map-marker-alt"></i>
+        <p class="bold mt-2 mb-0">Simply Home</p>
+        <p class="bold mt-0 mb-0">15 rue des Oliviers</p>
+        <p class="bold">16100 ANGOULEME</p>
+        <p>
+        <a href="tel:00000000000" class="bold">02 57 87 71 85</a>
+      </p>
+      </div>
+    </div>
+
   </footer>
 </body>
 
