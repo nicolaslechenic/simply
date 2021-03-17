@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'caviar_dreamsbold';
-    src: url('caviar_dreams_bold-webfont.woff2') format('woff2'),
-        url('caviar_dreams_bold-webfont.woff') format('woff');
+    src: url('./fonts/caviar_dreams_bold-webfont.woff2') format('woff2'),
+        url('./fonts/caviar_dreams_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,7 +36,11 @@
 
 /*---------general---------*/
 * {
-    font: 16px 'caviar_dreamsregular'Arial;
+    font: 16px 'caviar_dreamsregular', Arial;
+}
+
+.bold {
+    font-family: 'caviar_reamsbold', Arial;
 }
 
 a {
@@ -97,4 +101,170 @@ a {
     background-color: rgba(106, 34, 90, 0.5);
 }
 
-#header-main-nav
+#header-main-nav .navbar-brand div p:first-child {
+    font: 1.8rem 'caviar_dreamsbold', 'arial';
+}
+
+#header-main-nav .navbar-brand div p:nth-child(2) {
+    font: 1rem 'caviar_dreamsbold', 'arial';
+    line-height: 50%;
+}
+
+#header-main-nav .navbar-nav a {
+    font: 1.4rem 'caviar_dreamsbold', 'arial';
+    color: white;
+}
+
+.current-page {
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+/*------------MAIN------------*/
+
+main {
+    position: relative;
+}
+
+#bienvenue h1 {
+    font: 2rem 'caviar_dreamsbold', 'arial';
+}
+
+#bienvenue {
+    margin-top: 80px;
+    position: relative;
+    padding: 40px;
+}
+
+#bienvenue img {
+    max-width: 300px;
+}
+
+#contact-us {
+    position: fixed;
+    right: 0;
+    z-index: 100000;
+}
+
+#contact-us button {
+    width: 50px;
+    height: 50px;
+    top: 0;
+    border-width: 1px 0 1px 1px;
+    border-color: #000000;
+    border-radius: 0;
+}
+
+#phone {
+    transition: width 0.2s;
+}
+
+#phone:hover {
+    width: 245px;
+    background-color: black;
+    color: white;
+}
+
+#phone a {
+    display: none;
+    text-decoration: none;
+    font: 1.4rem 'caviar_dreamsbold', 'arial';
+}
+
+
+#phone:hover a {
+    display: block;
+    color: white;
+}
+
+/*---nos maisons---*/
+#nos-maisons h2 {
+    font: 2.4rem 'caviar_dreamsbold', 'arial';
+    margin-bottom: 3rem;
+}
+
+#nos-maisons .card {
+    width: 31%;
+    margin-bottom: 2rem;
+}
+
+#nos-maisons h4,
+p {
+    font: 1.4rem 'caviar_dreamsbold', 'arial';
+}
+
+.description {
+    margin: 2rem 0 0;
+}
+
+#nos-maisons a {
+    text-decoration: none;
+    color: black;
+}
+
+#financement img {
+    height: 100%;
+}
+
+#financement p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#financement a {
+    font-size: 1.3rem;
+    font: 1.4rem 'caviar_dreamsbold', 'arial';
+    background-color: white;
+}
+
+#financement a:hover {
+    background-color: black;
+    color: white;
+}
+
+#nos-maisons button {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+#nos-maisons button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    /*---header---*/
+
+    #header-main-nav {
+        background-image: none;
+        height: auto;
+    }
+
+    #header-main-nav .container,
+    #header-main-nav nav {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #header-main-nav .container,
+    #header-main-nav {
+        padding: 0;
+    }
+
+    /*----main----*/
+
+    #bienvenue h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    #nos-maisons .card {
+        width: 48%;
+    }
+
+}
