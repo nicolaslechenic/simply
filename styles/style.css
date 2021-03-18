@@ -39,6 +39,7 @@
     font: 16px 'caviar_dreamsregular', Arial;
 }
 
+
 .bold {
     font-family: 'caviar_dreamsbold', Arial;
 }
@@ -47,6 +48,9 @@ a {
     text-decoration: none;
 }
 
+.pad-top {
+    padding-top: 90px;
+}
 
 :root {
     --home-grey: #dcdcdc;
@@ -87,19 +91,27 @@ a {
     color: var(--black);
 }
 
-#header-main-nav {
+#header-main-nav,
+#header-main-nav .container-fluid {
+    padding: 0;
+}
+
+.accueil {
     height: 300px;
-    background-image: url(../images/actuel_2_chambres.jpg);
+    background-image: url(../images/image-bandeau.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-
-
-#header-main-nav .container .navbar {
+#header-main-nav .navbar {
     background-color: rgba(106, 34, 90, 0.5);
 }
+
+.nav-fuschia {
+    background-color: var(--fushia-dark);
+}
+
 
 #header-main-nav .navbar-brand div p:first-child {
     font: 1.8rem 'caviar_dreamsbold', 'arial';
@@ -144,6 +156,15 @@ main {
     position: fixed;
     right: 0;
     z-index: 100000;
+
+}
+
+.contactUs {
+    top: 400px;
+}
+
+.contUs {
+    top: 120px;
 }
 
 #contact-us button {
@@ -346,6 +367,88 @@ footer .adresse a:hover {
     color: var(--black);
 }
 
+/*______________________________________APROPOS PAGE______________*/
+
+.d-button {
+    width: 100%;
+    background-color: var(--home-grey) !important;
+}
+
+#apropos button {
+    font-size: 1.5rem;
+    border-radius: 0;
+
+}
+
+#apropos button:focus {
+    box-shadow: none;
+}
+
+#apropos p,
+#apropos li {
+    font-size: 1.4rem;
+}
+
+#apropos .dropdown-item-text {
+
+    width: 100%;
+}
+
+#apropos .d-button i {
+    font-size: 1.9rem;
+    background-color: rgb(182, 181, 181);
+    border-radius: 50%;
+}
+
+#apropos .dropdown-item-text ul li {
+    list-style-type: none;
+}
+
+#apropos section article #dtext img {
+    background-color: var(--fushia-light);
+    max-height: 150px;
+}
+
+#apropos section:last-child {
+    margin-bottom: 70px;
+}
+
+
+/*------------------CONTACT PAGE-----------*/
+
+#contact-page article h1 {
+    font-size: 2.4rem;
+}
+
+#contact-page article div img {
+    height: 100%;
+}
+
+#contact-page article div p {
+    font-size: 1.4rem;
+}
+
+#contact-page .form-group input,
+#contact-page .form-check label,
+#contact-page label {
+    font-size: 2rem;
+}
+
+#contact-page .form-check input[type=checkbox] {
+    transform: scale(1.5);
+    margin-top: 14px;
+}
+
+#contact-page button[type=submit] {
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+}
+
+#contact-page button[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
 
 
 @media (max-width: 768px) {
@@ -354,6 +457,7 @@ footer .adresse a:hover {
     #header-main-nav {
         background-image: none;
         height: auto;
+        position: relative;
     }
 
     #header-main-nav .container,
@@ -429,5 +533,40 @@ footer .adresse a:hover {
     #black-top {
         padding-bottom: 5px;
         margin-bottom: 1rem;
+    }
+
+    /*--------------A PROPOS-------*/
+    #apropos h1 {
+        font-size: 2rem;
+    }
+
+    #apropos p,
+    #apropos li {
+        font-size: 1.1rem;
+    }
+
+    /*------------------CONTACT PAGE-----------*/
+
+    #contact-page article h1 {
+        font-size: 1.6rem;
+    }
+
+
+    #contact-page article div p {
+        font-size: 0.8rem;
+    }
+
+    #contact-page .form-group input,
+    #contact-page .form-check label,
+    #contact-page label {
+        font-size: 1rem;
+    }
+
+    #contact-page .form-check input[type=checkbox] {
+        transform: scale(1.1);
+    }
+
+    #contact-page button[type=submit] {
+        font-size: 0.8rem;
     }
 }
