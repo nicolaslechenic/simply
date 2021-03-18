@@ -254,29 +254,45 @@ footer>img {
     font-size: 2rem;
 }
 
-#adresse p:first-of-type {
+.adresse p:first-of-type {
     font-size: 2rem;
 }
 
-#adresse p,
-#adresse a {
-    font-size: 1.2rem;
+.adresse p {
+    font-size: 1rem;
 }
 
-#adresse a {
+.adresse a {
     text-decoration: none;
     color: #000000;
     border: 1px solid black;
     padding: 10px 20px;
+    font-size: 1.2rem;
 }
 
 #footer-black {
     width: 40%;
     background-color: var(--black);
-    padding: 70px 0;
+    padding: 70px 0 80px;
     position: absolute;
     top: -50px;
     left: 30%;
+}
+
+#black-top {
+    margin-bottom: 4rem;
+}
+
+#black-social {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#black-social i {
+    color: black;
+    font-size: 1.6rem;
 }
 
 #footer-black img {
@@ -295,6 +311,42 @@ footer>img {
     font-size: 1.5rem;
     line-height: 0.5;
 }
+
+footer .adresse button {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+
+footer .adresse button:hover,
+footer .adresse a:hover {
+    background-color: var(--black);
+    color: white;
+    text-decoration: none;
+}
+
+#inscription p {
+    font-size: 1.6rem;
+}
+
+#footer-bottom {
+    background-color: rgba(235, 235, 235, 0.8);
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+#footer-bottom p,
+#footer-bottom a {
+    font-size: 1.3rem;
+}
+
+#footer-bottom a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+
 
 @media (max-width: 768px) {
     /*---header---*/
@@ -326,4 +378,56 @@ footer>img {
         width: 48%;
     }
 
+    /*-----footer-------*/
+
+    #footer-main i {
+        font-size: 1rem;
+    }
+
+    #footer-main {
+        top: 3rem;
+    }
+
+    .adresse {
+        width: 25%;
+    }
+
+    .adresse p,
+    #footer-black>div p:last-child,
+    footer .adresse button {
+        font-size: 0.7rem;
+    }
+
+    .adresse a,
+    #footer-bottom p,
+    #footer-bottom a {
+        font-size: 0.6rem;
+    }
+
+    #footer-black>div p:first-child {
+        font-size: 1.5rem;
+    }
+
+    #footer-black {
+        padding: 30px 0 40px;
+        top: -20px;
+        left: 30%;
+
+    }
+
+    #inscription p,
+    #black-social i,
+    #footer-main i {
+        font-size: 1rem;
+    }
+
+    .adresse p:first-of-type,
+    #footer-black>div p:first-child {
+        font-size: 1.2rem;
+    }
+
+    #black-top {
+        padding-bottom: 5px;
+        margin-bottom: 1rem;
+    }
 }
