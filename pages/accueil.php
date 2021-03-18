@@ -31,7 +31,7 @@ include('../layouts/header.php') ?> <main>
     </div>
   </div>
   <section id="bienvenue" class="container text-center">
-    <h1 class="mr-4">Bienvenue Chez Simply Home</h1>
+    <h1 class="mr-4 section-header">Bienvenue Chez Simply Home</h1>
     <div class="row m-3">
       <article class="col-lg-9 col-sm-12 text-justify">
         <p>Pellentesque id sagittis turpis, eget elementum eros. Fusce blandit ex a nulla tempor condimentum. Fusce

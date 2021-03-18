@@ -2,7 +2,7 @@
 $page="Contact";
 include('../layouts/header.php') ?> <main id="contact-page" class="pad-top">
     <article class="container text-center">
-        <h1 class="bold my-5">Contacter Simply Home</h1>
+        <h1 class="bold my-5 section-header">Contacter Simply Home</h1>
         <div class="d-flex justify-content-around">
             <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo orci,
                 pharetra vitae quam eu, pharetra fermentum felis. Integer sit amet vehicula velit, eu cursus metus.

@@ -2,7 +2,7 @@
 $page="A propos";
 include('../layouts/header.php') ?> <main id="apropos" class="pad-top">
     <section class="container pt-4 text-center">
-        <h1 class="bold my-4">Simply home: Une équipe d'experts</h1>
+        <h1 class="my-4 section-header">Simply home: Une équipe d'experts</h1>
         <p class="text-justify mt-3">Forts d’une longue expérience dans le domaine de la construction de maisons
             individuelles, nous nous engageons à déterminer avec vous ce qui vous conviendra le mieux, en étudiant
             rigoureusement les moindres détails de la conception de votre nouveau lieu de vie. </p>

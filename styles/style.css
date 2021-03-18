@@ -52,6 +52,10 @@ a {
     padding-top: 90px;
 }
 
+.section-header {
+    font: 2.2rem 'caviar_dreamsbold', 'arial';
+}
+
 :root {
     --home-grey: #dcdcdc;
     --fushia-light: #c10880;
@@ -97,7 +101,7 @@ a {
 }
 
 .accueil {
-    height: 300px;
+    height: 500px;
     background-image: url(../images/image-bandeau.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,10 +142,6 @@ main {
     position: relative;
 }
 
-#bienvenue h1 {
-    font: 2rem 'caviar_dreamsbold', 'arial';
-}
-
 #bienvenue {
     margin-top: 80px;
     position: relative;
@@ -160,7 +160,7 @@ main {
 }
 
 .contactUs {
-    top: 400px;
+    top: 600px;
 }
 
 .contUs {
@@ -416,9 +416,7 @@ footer .adresse a:hover {
 
 /*------------------CONTACT PAGE-----------*/
 
-#contact-page article h1 {
-    font-size: 2.4rem;
-}
+
 
 #contact-page article div img {
     height: 100%;
@@ -450,9 +448,24 @@ footer .adresse a:hover {
     color: white;
 }
 
+/*-----------NOS MAISONS PAGE-----------------*/
+
+#nosMaisons section h2 {
+    font-size: 1.8rem;
+}
+
+#nosMaisons .custom-select {
+    font-size: 0.8rem;
+}
+
+#nosMaisons section div:first-child {}
 
 @media (max-width: 768px) {
     /*---header---*/
+
+    .pad-top {
+        padding-top: 0;
+    }
 
     #header-main-nav {
         background-image: none;
@@ -473,10 +486,6 @@ footer .adresse a:hover {
 
     /*----main----*/
 
-    #bienvenue h1 {
-        font-size: 1.4rem;
-        text-align: center;
-    }
 
     #nos-maisons .card {
         width: 48%;
@@ -536,9 +545,7 @@ footer .adresse a:hover {
     }
 
     /*--------------A PROPOS-------*/
-    #apropos h1 {
-        font-size: 2rem;
-    }
+
 
     #apropos p,
     #apropos li {
@@ -547,13 +554,14 @@ footer .adresse a:hover {
 
     /*------------------CONTACT PAGE-----------*/
 
-    #contact-page article h1 {
+    .section-header {
         font-size: 1.6rem;
     }
 
 
-    #contact-page article div p {
-        font-size: 0.8rem;
+    #contact-page article div p,
+    #nosMaisons>article p {
+        font-size: 1.1rem;
     }
 
     #contact-page .form-group input,
@@ -568,5 +576,10 @@ footer .adresse a:hover {
 
     #contact-page button[type=submit] {
         font-size: 0.8rem;
+    }
+
+    /*--------NOS MAISONS--------*/
+    #nosMaisons section h2 {
+        font-size: 1.2rem;
     }
 }
