@@ -164,7 +164,7 @@ main {
 }
 
 .contUs {
-    top: 120px;
+    top: 200px;
 }
 
 #contact-us button {
@@ -199,18 +199,18 @@ main {
 }
 
 /*---nos maisons---*/
-#nos-maisons h2 {
+.nos-maisons h2 {
     font: 2.4rem 'caviar_dreamsbold', 'arial';
     margin-bottom: 3rem;
 }
 
-#nos-maisons .card {
+.nos-maisons .card {
     width: 31%;
     margin-bottom: 2rem;
 }
 
-#nos-maisons h4,
-#nos-maisons p {
+.nos-maisons h4,
+.nos-maisons p {
     font: 1.4rem 'caviar_dreamsbold', 'arial';
 }
 
@@ -218,8 +218,16 @@ main {
     margin: 2rem 0 0;
 }
 
-#nos-maisons a {
+.nos-maisons a {
     text-decoration: none;
+    color: black;
+}
+
+.nos-maisons div a {
+    text-decoration: none;
+}
+
+.nos-maisons div a:hover {
     color: black;
 }
 
@@ -243,13 +251,13 @@ main {
     color: white;
 }
 
-#nos-maisons button {
+.nos-maisons button {
     font-size: 1.6rem;
     text-decoration: none;
     color: black;
 }
 
-#nos-maisons button:hover {
+.nos-maisons button:hover {
     background-color: black;
     color: white;
 }
@@ -458,7 +466,46 @@ footer .adresse a:hover {
     font-size: 0.8rem;
 }
 
-#nosMaisons section div:first-child {}
+#nosMaisons section .select {
+    background-color: var(--dark-grey);
+}
+
+#house-cards .card {
+    background-color: var(--home-grey);
+}
+
+.nos-maisons h3 {
+    font: 1.2rem 'caviar_dreamsbold', 'arial';
+    display: inline;
+}
+
+#nosMaisons .nos-maisons .card-body {
+    padding: 0.8rem;
+}
+
+.nos-maisons p,
+.nos-maisons span {
+    font: 1.1rem 'caviar_dreamsbold', 'arial';
+}
+
+#nosMaisons .nos-maisons .card-body .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+#nosMaisons .pagination li a {
+    color: rgb(142, 167, 168);
+    font-size: 1.3rem;
+}
+
+#nosMaisons .pagination>.active a {
+    background-color: white !important;
+    color: var(--fushia-dark) !important;
+    border-color: rgb(142, 167, 168);
+}
 
 @media (max-width: 768px) {
     /*---header---*/
@@ -487,7 +534,7 @@ footer .adresse a:hover {
     /*----main----*/
 
 
-    #nos-maisons .card {
+    .nos-maisons .card {
         width: 48%;
     }
 
@@ -581,5 +628,9 @@ footer .adresse a:hover {
     /*--------NOS MAISONS--------*/
     #nosMaisons section h2 {
         font-size: 1.2rem;
+    }
+
+    #nosMaisons .custom-select {
+        font-size: 0.4rem;
     }
 }

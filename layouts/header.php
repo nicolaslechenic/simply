@@ -129,4 +129,29 @@ $current=basename($path);
       <button type="button" class="btn"><i class="fas fa-envelope" data-toggle="modal"
           data-target="#modal-contact"></i></button>
     </div>
+    <div class="modal" id="modal-contact">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <i class="far fa-times-circle m-2 text-right" data-dismiss="modal"></i>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="nom">Nom :</label>
+              <input type="text" class="form-control" id="nom">
+            </div>
+            <div class="form-group">
+              <label for="email">Mail :</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <texarea class="form-control" id="message" rows="3">
+            </div>
+            <button type="submit" class="btn btn-primary text-center">ENVOYER</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   </header>

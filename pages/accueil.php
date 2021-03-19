@@ -5,31 +5,7 @@ include('../layouts/header.php') ?> <main>
       <p class="text-center font-weight-bold"></p>
     </div> -->
   <!-- Contact us Modal -->
-  <div class="modal" id="modal-contact">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <i class="far fa-times-circle m-2 text-right" data-dismiss="modal"></i>
-        <!-- Modal body -->
-        <div class="modal-body">
-          <form action="/action_page.php">
-            <div class="form-group">
-              <label for="nom">Nom :</label>
-              <input type="text" class="form-control" id="nom">
-            </div>
-            <div class="form-group">
-              <label for="email">Mail :</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-              <label for="message">Message:</label>
-              <texarea class="form-control" id="message" rows="3">
-            </div>
-            <button type="submit" class="btn btn-primary text-center">ENVOYER</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <section id="bienvenue" class="container text-center">
     <h1 class="mr-4 section-header">Bienvenue Chez Simply Home</h1>
     <div class="row m-3">
@@ -42,7 +18,7 @@ include('../layouts/header.php') ?> <main>
       <img src="../images/construction_maison_individuelle.jpg" alt="" class="col-3 img-fluid d-none d-md-block">
     </div>
   </section>
-  <section id="nos-maisons" class="container">
+  <section class="container nos-maisons">
     <h2>Nos maisons</h2>
     <div class="d-flex justify-content-between flex-wrap">
       <div class="card ">
