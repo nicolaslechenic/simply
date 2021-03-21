@@ -1,620 +1,638 @@
 @font-face {
-  font-family: "caviar_dreamsbold";
-  src: url("./fonts/caviar_dreams_bold-webfont.woff2") format("woff2"),
-    url("./fonts/caviar_dreams_bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "caviar_dreamsbold";
+    src: url("./fonts/caviar_dreams_bold-webfont.woff2") format("woff2"),
+        url("./fonts/caviar_dreams_bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "caviar_dreamsregular";
-  src: url("./fonts/caviardreams-webfont.woff2") format("woff2"),
-    url("./fonts/caviardreams-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "caviar_dreamsregular";
+    src: url("./fonts/caviardreams-webfont.woff2") format("woff2"),
+        url("./fonts/caviardreams-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "caviar_dreamsbold_italic";
-  src: url("./fonts/caviardreams_bolditalic-webfont.woff2") format("woff2"),
-    url("./fonts/caviardreams_bolditalic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "caviar_dreamsbold_italic";
+    src: url("./fonts/caviardreams_bolditalic-webfont.woff2") format("woff2"),
+        url("./fonts/caviardreams_bolditalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "caviar_dreamsitalic";
-  src: url("./fonts/caviardreams_italic-webfont.woff2") format("woff2"),
-    url("./fonts/caviardreams_italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "caviar_dreamsitalic";
+    src: url("./fonts/caviardreams_italic-webfont.woff2") format("woff2"),
+        url("./fonts/caviardreams_italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*---------general---------*/
 * {
-  font: 16px "caviar_dreamsregular", Arial;
+    font: 16px "caviar_dreamsregular", Arial;
 }
 
 .bold {
-  font-family: "caviar_dreamsbold", Arial;
+    font-family: "caviar_dreamsbold", Arial;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .pad-top {
-  padding-top: 90px;
+    padding-top: 90px;
 }
 
 .section-header {
-  font: 2.2rem "caviar_dreamsbold", "arial";
+    font: 2.2rem "caviar_dreamsbold", "arial";
 }
 
 :root {
-  --home-grey: #dcdcdc;
-  --fushia-light: #c10880;
-  --fushia-dark: #6a225a;
-  --house-grey: #e0dfdf;
-  --dark-grey: #3e3d4b;
-  --black: #000000;
+    --home-grey: #dcdcdc;
+    --fushia-light: #c10880;
+    --fushia-dark: #6a225a;
+    --house-grey: #e0dfdf;
+    --dark-grey: #3e3d4b;
+    --black: #000000;
 }
 
 /*-------HOMEPAGE-------*/
 
 /*--------HEADER--------*/
 #top-nav {
-  background-color: var(--home-grey);
+    background-color: var(--home-grey);
 }
 
 #top-nav .nav-link,
 #top-nav span {
-  padding: 0 5px;
-  cursor: pointer;
+    padding: 0 5px;
+    cursor: pointer;
 }
 
 #myModal i {
-  font-size: 2rem;
-  color: var(--dark-grey);
-  cursor: pointer;
+    font-size: 2rem;
+    color: var(--dark-grey);
+    cursor: pointer;
 }
 
 #myModal i:hover {
-  color: var(--fushia-light);
+    color: var(--fushia-light);
 }
 
 #top-nav form button {
-  margin-left: 35%;
+    margin-left: 35%;
 }
 
 #top-nav .container ul a {
-  color: var(--black);
+    color: var(--black);
 }
 
 #header-main-nav,
 #header-main-nav .container-fluid {
-  padding: 0;
+    padding: 0;
 }
 
 .accueil {
-  height: 500px;
-  background-image: url(../images/image-bandeau.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 500px;
+    background-image: url(../images/image-bandeau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header-main-nav .navbar {
-  background-color: rgba(106, 34, 90, 0.5);
+    background-color: rgba(106, 34, 90, 0.5);
 }
 
 .nav-fuschia {
-  background-color: var(--fushia-dark);
+    background-color: var(--fushia-dark);
 }
 
 #header-main-nav .navbar-brand div p:first-child {
-  font: 1.8rem "caviar_dreamsbold", "arial";
+    font: 1.8rem "caviar_dreamsbold", "arial";
 }
 
 #header-main-nav .navbar-brand div p:nth-child(2) {
-  font: 1rem "caviar_dreamsbold", "arial";
-  line-height: 50%;
+    font: 1rem "caviar_dreamsbold", "arial";
+    line-height: 50%;
 }
 
 #header-main-nav .navbar-nav a {
-  font: 1.4rem "caviar_dreamsbold", "arial";
-  color: white;
+    font: 1.4rem "caviar_dreamsbold", "arial";
+    color: white;
 }
 
 .current-page {
-  text-decoration: underline;
-  font-size: 3rem;
+    text-decoration: underline;
+    font-size: 3rem;
 }
 
 /*------------MAIN------------*/
 
 main {
-  position: relative;
+    position: relative;
 }
 
 #bienvenue {
-  margin-top: 80px;
-  position: relative;
-  padding: 40px;
+    margin-top: 80px;
+    position: relative;
+    padding: 40px;
 }
 
 #bienvenue img {
-  max-width: 300px;
+    max-width: 300px;
 }
 
 #contact-us {
-  position: fixed;
-  right: 0;
-  z-index: 100000;
+    position: fixed;
+    right: 0;
+    z-index: 100000;
 }
 
 .contactUs {
-  top: 600px;
+    top: 600px;
 }
 
 .contUs {
-  top: 200px;
+    top: 200px;
 }
 
 #contact-us button {
-  width: 50px;
-  height: 50px;
-  top: 0;
-  border-width: 1px 0 1px 1px;
-  border-color: #000000;
-  border-radius: 0;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    border-width: 1px 0 1px 1px;
+    border-color: #000000;
+    border-radius: 0;
 }
 
 #phone {
-  transition: width 0.2s;
+    transition: width 0.2s;
 }
 
 #phone:hover {
-  width: 245px;
-  background-color: black;
-  color: white;
+    width: 245px;
+    background-color: black;
+    color: white;
 }
 
 #phone a {
-  display: none;
-  text-decoration: none;
-  font: 1.4rem "caviar_dreamsbold", "arial";
+    display: none;
+    text-decoration: none;
+    font: 1.4rem "caviar_dreamsbold", "arial";
 }
 
 #phone:hover a {
-  display: block;
-  color: white;
+    display: block;
+    color: white;
+}
+
+#emailButton:hover {
+    background-color: black;
+    color: white;
 }
 
 /*---nos maisons---*/
 .nos-maisons h2 {
-  font: 2.4rem "caviar_dreamsbold", "arial";
-  margin-bottom: 3rem;
+    font: 2.4rem "caviar_dreamsbold", "arial";
+    margin-bottom: 3rem;
 }
 
 .nos-maisons .card {
-  width: 31%;
-  margin-bottom: 2rem;
+    width: 31%;
+    margin-bottom: 2rem;
 }
 
 .nos-maisons h4,
 .nos-maisons p {
-  font: 1.4rem "caviar_dreamsbold", "arial";
+    font: 1.4rem "caviar_dreamsbold", "arial";
 }
 
 .description {
-  margin: 2rem 0 0;
+    margin: 2rem 0 0;
 }
 
 .nos-maisons a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .nos-maisons div a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .nos-maisons div a:hover {
-  color: black;
+    color: black;
 }
 
 #financement img {
-  height: 100%;
+    height: 100%;
 }
 
 #financement p {
-  font-size: 2rem;
-  padding: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 #financement a {
-  font-size: 1.3rem;
-  font: 1.4rem "caviar_dreamsbold", "arial";
-  background-color: white;
+    font-size: 1.3rem;
+    font: 1.4rem "caviar_dreamsbold", "arial";
+    background-color: white;
 }
 
 #financement a:hover {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 .nos-maisons button {
-  font-size: 1.6rem;
-  text-decoration: none;
-  color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
 }
 
 .nos-maisons button:hover {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 /*---------FOOTER--------*/
 footer {
-  position: relative;
+    position: relative;
 }
 
-footer > img {
-  width: 100%;
+footer>img {
+    width: 100%;
 }
 
 #footer-main {
-  position: absolute;
-  top: 6rem;
-  width: 90%;
-  background-color: white;
+    position: absolute;
+    top: 6rem;
+    width: 90%;
+    background-color: white;
 }
 
 #footer-main i {
-  color: var(--home-grey);
-  font-size: 2rem;
+    color: var(--home-grey);
+    font-size: 2rem;
 }
 
 .adresse p:first-of-type {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .adresse p {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .adresse a {
-  text-decoration: none;
-  color: #000000;
-  border: 1px solid black;
-  padding: 10px 20px;
-  font-size: 1.2rem;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
 }
 
 #footer-black {
-  width: 40%;
-  background-color: var(--black);
-  padding: 70px 0 80px;
-  position: absolute;
-  top: -50px;
-  left: 30%;
+    width: 40%;
+    background-color: var(--black);
+    padding: 70px 0 80px;
+    position: absolute;
+    top: -50px;
+    left: 30%;
 }
 
 #black-top {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 #black-social {
-  background-color: white;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 #black-social i {
-  color: black;
-  font-size: 1.6rem;
+    color: black;
+    font-size: 1.6rem;
 }
 
 #footer-black img {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
-#footer-black > div {
-  color: white;
+#footer-black>div {
+    color: white;
 }
 
-#footer-black > div p:first-child {
-  font-size: 3rem;
+#footer-black>div p:first-child {
+    font-size: 3rem;
 }
 
-#footer-black > div p:last-child {
-  font-size: 1.5rem;
-  line-height: 0.5;
+#footer-black>div p:last-child {
+    font-size: 1.5rem;
+    line-height: 0.5;
 }
 
 footer .adresse button {
-  background-color: white;
-  border: 1px solid black;
-  font-size: 1.5rem;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.5rem;
 }
 
 footer .adresse button:hover,
 footer .adresse a:hover {
-  background-color: var(--black);
-  color: white;
-  text-decoration: none;
+    background-color: var(--black);
+    color: white;
+    text-decoration: none;
 }
 
 #inscription p {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 #footer-bottom {
-  background-color: rgba(235, 235, 235, 0.8);
-  position: absolute;
-  bottom: 0;
-  font-size: 2rem;
+    background-color: rgba(235, 235, 235, 0.8);
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
 }
 
 #footer-bottom p,
 #footer-bottom a {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 #footer-bottom a {
-  text-decoration: none;
-  color: var(--black);
+    text-decoration: none;
+    color: var(--black);
 }
 
 /*______________________________________APROPOS PAGE______________*/
 
 .d-button {
-  width: 100%;
-  background-color: var(--home-grey) !important;
+    width: 100%;
+    background-color: var(--home-grey) !important;
 }
 
 #apropos button {
-  font-size: 1.5rem;
-  border-radius: 0;
+    font-size: 1.5rem;
+    border-radius: 0;
 }
 
 #apropos button:focus {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 #apropos p,
 #apropos li {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 #apropos .dropdown-item-text {
-  width: 100%;
+    width: 100%;
 }
 
 #apropos .d-button i {
-  font-size: 1.9rem;
-  background-color: rgb(182, 181, 181);
-  border-radius: 50%;
+    font-size: 1.9rem;
+    background-color: rgb(182, 181, 181);
+    border-radius: 50%;
 }
 
 #apropos .dropdown-item-text ul li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #apropos section article #dtext img {
-  background-color: var(--fushia-light);
-  max-height: 150px;
+    background-color: var(--fushia-light);
+    max-height: 150px;
 }
 
 #apropos section:last-child {
-  margin-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 /*------------------CONTACT PAGE-----------*/
 
 #contact-page article div img {
-  height: 100%;
+    height: 100%;
 }
 
 #contact-page article div p {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 #contact-page .form-group input,
 #contact-page .form-check label,
 #contact-page label {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 #contact-page .form-check input[type="checkbox"] {
-  transform: scale(1.5);
-  margin-top: 14px;
+    transform: scale(1.5);
+    margin-top: 14px;
 }
 
 #contact-page button[type="submit"] {
-  font-size: 1.3rem;
-  background-color: white;
-  color: black;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
 }
 
 #contact-page button[type="submit"]:hover {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 /*-----------NOS MAISONS PAGE-----------------*/
 
 #nosMaisons section h2 {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
 #nosMaisons option {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 #nosMaisons section .select {
-  background-color: var(--dark-grey);
+    background-color: var(--dark-grey);
 }
 
 #house-cards .card {
-  background-color: var(--home-grey);
+    background-color: var(--home-grey);
 }
 
 .nos-maisons h3 {
-  font: 1.2rem "caviar_dreamsbold", "arial";
-  display: inline;
+    font: 1.2rem "caviar_dreamsbold", "arial";
+    display: inline;
 }
 
 #nosMaisons .nos-maisons .card-body {
-  padding: 0.8rem;
+    padding: 0.8rem;
 }
 
 .nos-maisons p,
 .nos-maisons span {
-  font: 1.1rem "caviar_dreamsbold", "arial";
+    font: 1.1rem "caviar_dreamsbold", "arial";
 }
 
 #nosMaisons .nos-maisons .card-body .description {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  margin-top: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 0;
 }
 
 #nosMaisons .pagination li a {
-  color: rgb(142, 167, 168);
-  font-size: 1.3rem;
+    color: rgb(142, 167, 168);
+    font-size: 1.3rem;
 }
 
-#nosMaisons .pagination > .active a {
-  background-color: white !important;
-  color: var(--fushia-dark) !important;
-  border-color: rgb(142, 167, 168);
+#nosMaisons .pagination>.active a {
+    background-color: white !important;
+    color: var(--fushia-dark) !important;
+    border-color: rgb(142, 167, 168);
 }
 
 @media (max-width: 768px) {
-  /*---header---*/
+    /*---header---*/
 
-  .pad-top {
-    padding-top: 0;
-  }
+    #header-main-nav .navbar {
+        background-color: var(--fushia-dark);
+    }
 
-  #header-main-nav {
-    background-image: none;
-    height: auto;
-    position: relative;
-  }
+    .pad-top {
+        padding-top: 0;
+    }
 
-  #header-main-nav .container,
-  #header-main-nav nav {
-    max-width: 100%;
-    margin: 0;
-  }
+    #header-main-nav {
+        background-image: none;
+        height: auto;
+        position: relative;
+    }
 
-  #header-main-nav .container,
-  #header-main-nav {
-    padding: 0;
-  }
+    #header-main-nav .container,
+    #header-main-nav nav {
+        max-width: 100%;
+        margin: 0;
+    }
 
-  /*----main----*/
+    #header-main-nav .container,
+    #header-main-nav {
+        padding: 0;
+    }
 
-  .nos-maisons .card {
-    width: 48%;
-  }
+    #bienvenue {
+        margin-top: 0px;
+    }
 
-  /*-----footer-------*/
+    .contUs,
+    .contactUs {
+        top: 300px;
+    }
 
-  #footer-main i {
-    font-size: 1rem;
-  }
+    /*----main----*/
 
-  #footer-main {
-    top: 3rem;
-  }
+    .nos-maisons .card {
+        width: 48%;
+    }
 
-  .adresse {
-    width: 25%;
-  }
+    /*-----footer-------*/
 
-  .adresse p,
-  #footer-black > div p:last-child,
-  footer .adresse button {
-    font-size: 0.7rem;
-  }
+    #footer-main i {
+        font-size: 1rem;
+    }
 
-  .adresse a,
-  #footer-bottom p,
-  #footer-bottom a {
-    font-size: 0.6rem;
-  }
+    #footer-main {
+        top: 3rem;
+    }
 
-  #footer-black > div p:first-child {
-    font-size: 1.5rem;
-  }
+    .adresse {
+        width: 25%;
+    }
 
-  #footer-black {
-    padding: 30px 0 40px;
-    top: -20px;
-    left: 30%;
-  }
+    .adresse p,
+    #footer-black>div p:last-child,
+    footer .adresse button {
+        font-size: 0.7rem;
+    }
 
-  #inscription p,
-  #black-social i,
-  #footer-main i {
-    font-size: 1rem;
-  }
+    .adresse a,
+    #footer-bottom p,
+    #footer-bottom a {
+        font-size: 0.6rem;
+    }
 
-  .adresse p:first-of-type,
-  #footer-black > div p:first-child {
-    font-size: 1.2rem;
-  }
+    #footer-black>div p:first-child {
+        font-size: 1.5rem;
+    }
 
-  #black-top {
-    padding-bottom: 5px;
-    margin-bottom: 1rem;
-  }
+    #footer-black {
+        padding: 30px 0 40px;
+        top: -20px;
+        left: 30%;
+    }
 
-  /*--------------A PROPOS-------*/
+    #inscription p,
+    #black-social i,
+    #footer-main i {
+        font-size: 1rem;
+    }
 
-  #apropos p,
-  #apropos li {
-    font-size: 1.1rem;
-  }
+    .adresse p:first-of-type,
+    #footer-black>div p:first-child {
+        font-size: 1.2rem;
+    }
 
-  /*------------------CONTACT PAGE-----------*/
+    #black-top {
+        padding-bottom: 5px;
+        margin-bottom: 1rem;
+    }
 
-  .section-header {
-    font-size: 1.6rem;
-  }
+    /*--------------A PROPOS-------*/
 
-  #contact-page article div p,
-  #nosMaisons > article p {
-    font-size: 1.1rem;
-  }
+    #apropos p,
+    #apropos li {
+        font-size: 1.1rem;
+    }
 
-  #contact-page .form-group input,
-  #contact-page .form-check label,
-  #contact-page label {
-    font-size: 1rem;
-  }
+    /*------------------CONTACT PAGE-----------*/
 
-  #contact-page .form-check input[type="checkbox"] {
-    transform: scale(1.1);
-  }
+    .section-header {
+        font-size: 1.6rem;
+    }
 
-  #contact-page button[type="submit"] {
-    font-size: 0.8rem;
-  }
+    #contact-page article div p,
+    #nosMaisons>article p {
+        font-size: 1.1rem;
+    }
 
-  /*--------NOS MAISONS--------*/
-  #nosMaisons section h2 {
-    font-size: 1.2rem;
-  }
+    #contact-page .form-group input,
+    #contact-page .form-check label,
+    #contact-page label {
+        font-size: 1rem;
+    }
 
-  #nosMaisons option,
-  #nosMaisons select {
-    font-size: 0.4rem;
-  }
+    #contact-page .form-check input[type="checkbox"] {
+        transform: scale(1.1);
+    }
+
+    #contact-page button[type="submit"] {
+        font-size: 0.8rem;
+    }
+
+    /*--------NOS MAISONS--------*/
+    #nosMaisons section h2 {
+        font-size: 1.2rem;
+    }
+
+    #nosMaisons option,
+    #nosMaisons select {
+        font-size: 0.4rem;
+    }
 }

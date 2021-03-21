@@ -49,7 +49,7 @@ $current=basename($path);
             <span>|</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i> 02 57 87 71 85</a>
+            <a class="nav-link" href="tel:00000000000"><i class="fas fa-phone-alt"></i> 02 57 87 71 85</a>
           </li>
           <li class="nav-item" data-toggle="modal" data-target="#myModal">
             <span>| <i class="fas fa-scroll"></i> Suivre mon projet |</span>
@@ -126,7 +126,7 @@ $current=basename($path);
       <button type="button" class="btn mb-1 d-flex align-items-center" id="phone">
         <i class="fas fa-phone-alt"></i><a href="tel:00000000000" class="ml-3">02 57 87 71 85</a>
       </button>
-      <button type="button" class="btn"><i class="fas fa-envelope" data-toggle="modal"
+      <button type="button" class="btn" id="emailButton"><i class="fas fa-envelope" data-toggle="modal"
           data-target="#modal-contact"></i></button>
     </div>
     <div class="modal" id="modal-contact">
@@ -146,7 +146,7 @@ $current=basename($path);
             </div>
             <div class="form-group">
               <label for="message">Message:</label>
-              <texarea class="form-control" id="message" rows="3">
+              <textarea class="form-control" id="message" rows="3" name="text"></textarea>
             </div>
             <button type="submit" class="btn btn-primary text-center">ENVOYER</button>
           </form>
