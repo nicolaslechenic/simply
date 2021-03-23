@@ -77,7 +77,7 @@ include('../layouts/header.php') ?> <main>
                     <div class="card-body">
                         <h4 class="card-title">Azure</h4>
                         <p class="card-text description">Maison 3 chambres</p>
-                        <p class="card-text">97m²</p>
+                        <p class="card-text">96m²</p>
                     </div>
                 </a>
             </div>
