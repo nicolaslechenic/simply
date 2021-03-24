@@ -635,4 +635,9 @@ footer .adresse a:hover {
     #nosMaisons select {
         font-size: 0.4rem;
     }
+
+    #contact-page .form-check input[type="checkbox"] {
+
+        margin-top: 5px;
+    }
 }
